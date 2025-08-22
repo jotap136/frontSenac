@@ -1,0 +1,49 @@
+.sacola{
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;  
+    position: absolute;
+    top: 0;
+    right: 0;  
+}
+ 
+.menu ul {
+    font-size: 15px;
+    display: inline;
+}
+ 
+.menu a {
+color: #003366;
+ 
+}
+ 
+.menu ul li{
+    margin-left: 20px;
+    display: inline;   
+}
+header{
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+header{
+    position: relative;
+}
+
+
+ 
