@@ -1,23 +1,26 @@
-body {
-    background-image:url(img/body-background.png);
-    color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+body{
+    color:#333333;
+    font-family: "Lucida Sans Unicode","Lucida Grande", sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 940px;
 }
  
 h1 {
-    background-image:url(img/sobre-background.jpg);
-    padding: 10px;
+background-image: url(../img/sobre-background.jpg);
+padding: 10px;
 }
- 
 h2 {
-    border-bottom: 2px solid #333333;
-    margin-top: 30px;
+border-bottom: 2px solid #333333;
+margin: 30px;
 }
  
-figure {
+p{
+    padding: 0 45px;
+    text-indent: 15px;
+}
+ 
+figure{
     background-color: #f2eded;
     border: 1px solid #ccc;
     text-align: center;
@@ -25,38 +28,55 @@ figure {
     margin: 30px;
 }
  
-figcaption {
+figcaption{
     font-style: italic;
     margin-top: 10px;
 }
  
-p {
-    padding: 0 45px;
-    text-indent: 15px;
-}
- 
-#centro-distribuicao {
+#centro-distribuicao{
     margin-left: auto;
     margin-right: auto;
     width: 550px;
 }
  
-#rodape {
-    color: 777;
+#rodape{
+    color: #777;
     margin: 30px 0;
     padding: 30px 0;
 }
  
-#rodape img {
+#rodape img{
     margin-right: 30px;
     vertical-align: middle;
     width: 94px;
 }
  
-#familia-pelho {
+#familia-pelho{
     float: right;
-    margin: 0 0 10px 10px;
+    margin: 0 0 10px;
     margin-right: auto;
-    width: 320;
+    width: 320px;
 }
- 
+
+p::first-letter{
+    font-weight: bold;
+
+}
+
+h1 + p{
+    text-indent: 0px;
+}
+
+p::first-line{
+    font-variant: small-caps;
+}
+
+.menu-opcoes a:hover{
+    color: #007dc6;
+
+}
+
+.menu-opcoes a:active{
+    color: #7cfc00;
+}
+
